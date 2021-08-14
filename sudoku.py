@@ -9,7 +9,7 @@ def MakeSudoku():
             
     # The range here is the amount
 	# of numbers in the grid
-    for i in range(5):
+    for i in range(25):
         #choose random numbers
         row = random.randrange(9)
         col = random.randrange(9)
